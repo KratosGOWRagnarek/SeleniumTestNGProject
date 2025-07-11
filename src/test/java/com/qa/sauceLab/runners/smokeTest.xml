@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+    <test name="Login tests">
+        <classes>
+            <class name="com.qa.sauceLab.tests.SauceLabTestBase"> </class>
+            <class name="com.qa.sauceLab.tests.SaucelabLoginTest">
+                <methods>
+                    <include name="validateLoginWithDataProvider">The method to run</include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+

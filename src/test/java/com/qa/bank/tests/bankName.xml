@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Bank Name Suite">
+
+    <test name="Name Test">
+        <parameter name="bank" value="XYZ Bank"></parameter>
+        <classes>
+            <class name="com.qa.bank.tests.BankLoginTest"></class>
+
+
+        </classes>
+
+
+
+
+    </test>
+
+</suite>

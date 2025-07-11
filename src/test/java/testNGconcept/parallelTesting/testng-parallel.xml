@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel Testing Practice">
+    <test name="Whatever"  thread-count="4" parallel="methods">
+        <classes>
+            <class name="testNGconcept.parallelTesting.SearchTests"> </class>
+            <class name="testNGconcept.parallelTesting.SingUpTests"> </class>
+
+        </classes>
+
+    </test>
+    
+</suite>
