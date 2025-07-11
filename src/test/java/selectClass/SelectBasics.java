@@ -16,7 +16,7 @@ public class SelectBasics {
     @Test
     public void selectmethods() throws InterruptedException {
         ChromeDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://the-internet.herokuapp.com/dropdown");
 
         WebElement optionbox = driver.findElement(By.xpath("//select[@id='dropdown']"));
